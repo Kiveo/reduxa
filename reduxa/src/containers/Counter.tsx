@@ -20,7 +20,7 @@ const Counter = () => {
     setCounter(prevCounter => prevCounter + 1)
   }
   const localDecrement = () => {
-    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter - 1)
   }
 
   // View: the UI definition
